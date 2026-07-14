@@ -97,13 +97,13 @@ supabase/
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 
 - [x] Authentication
 - [x] Privacy-first onboarding
-- [ ] Seasonal dashboard
-- [ ] Calendar
-- [ ] Symptom tracking
+- [x] Seasonal dashboard
+- [x] Calendar
+- [x] Symptom tracking
 - [ ] Journal
 - [ ] Notifications
 - [ ] Cycle analytics
