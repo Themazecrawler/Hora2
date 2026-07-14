@@ -1,20 +1,121 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Hora
 
-# Run and deploy your AI Studio app
+This is a privacy-first menstrual cycle tracking app that reimagines the menstrual cycle as four seasons. Instead of presenting the cycle as a clinical timeline, I have designed the app adapt to its visuals and insights to the user's current phase through seasonal themes inspired by nature.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/78268e19-e368-4914-a258-e5b7998aa6d7
+## Features
 
-## Run Locally
+1. Seasonal UI that changes with the user's cycle
+2. Period and cycle tracking
+3. Symptom and mood logging
+4. Cycle insights and predictions
+5. Seasonal journal prompts
+6. Privacy-first onboarding
+7. Optional pseudonym profiles
+8. Light and dark mode
+9. Cross-platform support (iOS & Android)
 
-**Prerequisites:**  Node.js
+---
+
+## Design Philosophy
+
+The menstrual cycle is represented through four seasons:
+
+| Phase | Season |
+|--------|---------|
+| Follicular |  Spring |
+| Ovulation |  Summer |
+| Luteal |  Autumn |
+| Menstruation |  Winter |
+
+Rather than changing the layout, the app keeps a consistent interface while adapting:
+
+- Accent colors
+- Dynamic header illustrations
+- Motivational copy
+- Calendar highlights
+
+This creates a calming, personalized experience without overwhelming the user.
+
+---
+
+## Tech Stack
+
+- React Native
+- Expo
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+
+---
+
+## Screenshots
+
+
+
+| Welcome | Dashboard | Calendar |
+|---------|-----------|----------|
+| Coming Soon | Coming Soon | Coming Soon |
+
+---
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Themazecrawler/Hora.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npx expo start
+```
+
+---
+
+## Project Structure
+
+```
+app/
+components/
+assets/
+hooks/
+constants/
+services/
+utils/
+supabase/
+```
+
+---
+
+## 🗺 Roadmap
+
+- [x] Authentication
+- [x] Privacy-first onboarding
+- [ ] Seasonal dashboard
+- [ ] Calendar
+- [ ] Symptom tracking
+- [ ] Journal
+- [ ] Notifications
+- [ ] Cycle analytics
+- [ ] Wearable integration
+- [ ] Data export
+
+---
+
+## Contributing
+
+Contributions, ideas, and feedback are welcome. Feel free to open an issue or submit a pull request.
+
+---
+
+
