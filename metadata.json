@@ -1,0 +1,6 @@
+{
+  "name": "Cycle Seasons",
+  "description": "An elegant, seasonal-themed period tracker that aligns wellness, activities, and insights with your biological rhythm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

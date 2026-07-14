@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Be Vietnam Pro", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Be Vietnam Pro", sans-serif;
+}
+
+/* Hide scrollbars but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Global Dark Mode Overrides targeting all screens */
+body {
+  background-color: #110E18 !important;
+  color: #F3E8FF !important;
+}
+
+/* Override light theme white backgrounds to beautiful dark purple containers */
+.bg-white {
+  background-color: #252033 !important;
+}
+
+/* Background light/stone shades overridden to deep active purple */
+.bg-stone-50,
+.bg-gray-50,
+.bg-stone-100,
+.bg-gray-100 {
+  background-color: #1E1A29 !important;
+}
+
+/* Interactive hover backgrounds */
+.hover\:bg-stone-50:hover,
+.hover\:bg-gray-50:hover,
+.hover\:bg-stone-100:hover,
+.hover\:bg-gray-100:hover {
+  background-color: #2D273D !important;
+}
+
+/* Border color overrides */
+.border-stone-100,
+.border-gray-100,
+.border-stone-150,
+.border-gray-200,
+.border-stone-200,
+.border-gray-50 {
+  border-color: #312944 !important;
+}
+
+/* Text color overrides to ensure maximum readability */
+.text-stone-800,
+.text-gray-800,
+.text-stone-900,
+.text-gray-900 {
+  color: #FFFFFF !important;
+}
+
+.text-stone-700,
+.text-gray-700,
+.text-stone-600,
+.text-gray-600 {
+  color: #E9D5FF !important;
+}
+
+.text-stone-500,
+.text-gray-500,
+.text-stone-400,
+.text-gray-400 {
+  color: #D8B4FE !important;
+  opacity: 0.8;
+}
+
+/* Input/Form controls */
+input, select, textarea {
+  background-color: #1E1A29 !important;
+  color: #FFFFFF !important;
+  border-color: #312944 !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgba(216, 180, 254, 0.4) !important;
+}
+
+/* Specific help and warning banners */
+.bg-indigo-50\/50,
+.bg-indigo-50,
+.bg-violet-50 {
+  background-color: #231C35 !important;
+  border-color: #3B2E54 !important;
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #1B1725 !important;
+  border-top-color: #312944 !important;
+}
+
+/* Buttons unselected hover */
+.text-stone-400:hover,
+.text-gray-400:hover {
+  color: #FFFFFF !important;
+}
